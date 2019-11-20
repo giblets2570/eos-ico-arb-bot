@@ -1,0 +1,9 @@
+- load cached blocks from s3
+- Download all the blocks
+- Removed duplicate transactions from new blocks plus last old block
+- compute window prices from block list
+- look at price 3 mins before end of period yesterday and price at end of period yesterday + compute increase
+- multiply price now by increase yesterday
+- if this value < 0.9 * current market price 
+	- Call buy with limit with today as period with value as all my ether
+- save new transactions to s3 for tomorrow

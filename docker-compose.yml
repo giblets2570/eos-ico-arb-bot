@@ -1,0 +1,10 @@
+version: '2'
+services:
+  eos:
+    build: .
+    environment:
+      - ENV=development
+    volumes:
+      - .:/usr/src/app
+    command:
+      - bash

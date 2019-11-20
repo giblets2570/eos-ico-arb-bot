@@ -1,0 +1,16 @@
+env
+env2
+env*
+.DS_STORE
+.env
+.aws/
+functions/**/pip_modules/
+functions/**/__pycache__/
+private*
+transactions*
+*.pyc
+project.json
+3minutes.json
+6minutes.json
+10minutes.json
+15minutes.json

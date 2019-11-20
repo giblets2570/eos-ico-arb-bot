@@ -1,0 +1,8 @@
+{
+  "description": "make trade",
+  "timeout": 300,
+  "runtime": "python3.6",
+  "hooks": {
+    "build": ""
+  }
+}
